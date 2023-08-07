@@ -1,11 +1,8 @@
 import React from "react";
-import "./app.css"
+import "./app.css";
 const App = () => {
   return (
-    <div
-      className="container"
-    >
-      <h1>hello this is my custom react app</h1>
+    <div className="container">
       <h1>hello this is my custom react app</h1>
     </div>
   );

@@ -22,7 +22,7 @@ Are you ready to embark on an exciting journey into the world of modern web deve
 
 Ready to dive in? Simply clone our repository and follow along with the guided instructions in each section. Before you know it, you'll have a stunning, fully-functional React app under your belt, and a newfound confidence in using Webpack 5.
 
-**Repository Link:** [Your Repository Link Here]
+**Repository Link:** [https://github.com/deepumandal/react-webpack-configuration]
 
 Don't miss this opportunity to level up your web development skills. Whether you're looking to build your portfolio, start a new career, or simply enjoy the art of creating digital experiences, this repository has something exciting for everyone.
 

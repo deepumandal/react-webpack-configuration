@@ -1,0 +1,36 @@
+{
+  "name": "custum_name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "build:start": "cd dist && PORT=7001 npx serve",
+    "start": "webpack serve --open --mode development",
+    "start:live": "webpack serve --open --mode development --live-reload --hot"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^18.2.18",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "postcss": "^8.4.33",
+    "style-loader": "^3.3.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "postcss-loader": "^8.0.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "fs-extra": "^11.2.0"
+  },
+  "name": "web-app-init",
+  "version": "1.0.1",
+  "description": "This is officially designed to install templated based on latest web technology!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepumandal/react-webpack-configuration.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "scss",
+    "react",
+    "react-dom",
+    "typescript",
+    "babel"
+  ],
+  "author": "Deepak Mandal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepumandal/react-webpack-configuration/issues"
+  },
+  "homepage": "https://github.com/Deepumandal/react-webpack-configuration#readme",
+  "bin": {
+    "web-app-init": "index.js"
+  }
+}

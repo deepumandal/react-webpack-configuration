@@ -1,17 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { ChakraProvider } from "@chakra-ui/react";
 import App from "./App";
+import "./index.css";
 
-const container: HTMLElement | null = document.getElementById("root");
+const container = document.getElementById("root");
 if (container) {
   const root = createRoot(container);
-  root.render(
-    <ChakraProvider>
-      {" "}
-      <App />
-    </ChakraProvider>
-  );
+  root.render(<App />);
 } else {
   throw new Error("Target container is not dom element");
 }

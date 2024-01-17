@@ -13,7 +13,6 @@
       "start:live": "webpack serve --open --mode development --live-reload --hot"
     },
     "devDependencies": {
-      "@babel/core": "^7.15.8",
       "@babel/preset-env": "^7.15.8",
       "@babel/preset-react": "^7.14.5",
       "@types/react": "^17.0.2",
@@ -21,7 +20,6 @@
       "babel-loader": "^8.2.2",
       "css-loader": "^6.3.0",
       "html-webpack-plugin": "^5.3.2",
-      "postcss": "^8.4.33",
       "style-loader": "^3.3.0"
     },
     "dependencies": {

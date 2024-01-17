@@ -10,8 +10,8 @@
     "fs-extra": "^11.2.0"
   },
   "name": "web-app-init",
-  "version": "1.0.2",
-  "description": "This is officially designed to install templated based on latest web technology!",
+  "version": "1.0.3",
+  "description": "This is officially designed to install templates based on latest web technology!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

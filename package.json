@@ -10,7 +10,7 @@
     "fs-extra": "^11.2.0"
   },
   "name": "web-app-init",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is officially designed to install templated based on latest web technology!",
   "main": "index.js",
   "scripts": {

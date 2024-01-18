@@ -12,16 +12,6 @@ const stylePrint_1 = __importDefault(require("./stylePrint"));
 const path_1 = require("path");
 // package installer
 const scriptsRunner = async function () {
-    process.on("SIGINT", () => {
-        console.log("Received Ctrl+C. Exiting...");
-        // Perform cleanup or other tasks if needed
-        process.exit();
-    });
-    // Your code goes here
-    // Example: simulate a long-running task
-    setInterval(() => {
-        console.log("Working...");
-    }, 1000);
     const projectNameResponse = await (0, getProjectName_1.default)(); // Prompt for the project name
     const languageNameResponse = await (0, getLanguages_1.default)(); //   Select language
     const templateNameResponse = await (0, getTemplate_1.default)(); //   select library

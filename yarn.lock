@@ -2,12 +2,10 @@
 # yarn lockfile v1
 
 
-"@types/chalk@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/@types/chalk/-/chalk-2.2.0.tgz"
-  integrity sha512-1zzPV9FDe1I/WHhRkf9SNgqtRJWZqrBWgu7JGveuHmmyR9CnAPCie2N/x+iHrgnpYBIcCJWHBoMRv2TRWktsvw==
-  dependencies:
-    chalk "*"
+"@types/clear@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@types/clear/-/clear-0.1.4.tgz#19b2863ac2c5e77a24ed6a51a08210a887652066"
+  integrity sha512-4nJjoilJPTbYF7Q4y5+F7JFDK8QdcwOItzwVv3RDEMWALT9Mx9UzfxCiUfpbFK05REhieXTCvhbNkiDW/Wfejw==
 
 "@types/fs-extra@^11.0.4":
   version "11.0.4"
@@ -75,10 +73,10 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-chalk@*:
-  version "5.3.0"
-  resolved "https://registry.npmjs.org/chalk/-/chalk-5.3.0.tgz"
-  integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
+clear@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/clear/-/clear-0.1.0.tgz#b81b1e03437a716984fd7ac97c87d73bdfe7048a"
+  integrity sha512-qMjRnoL+JDPJHeLePZJuao6+8orzHMGP04A8CdwCNsKhRbOnKRjefxONR7bwILT3MHecxKBjHkKL/tkZ8r4Uzw==
 
 concat-map@0.0.1:
   version "0.0.1"

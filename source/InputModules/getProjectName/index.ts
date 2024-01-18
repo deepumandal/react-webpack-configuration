@@ -4,19 +4,23 @@ import ReadCurrentFileName from "../ReadCurrentDirName";
 import stylishPrint from "../../stylePrint";
 import {
   CONTINUE_WITH_CURRENT_DIR,
-  NAVIGATE_DIR,
   PROJECT_NAME,
   directoryOptions,
 } from "../../../utils/constants";
-import getNavigatedDirPath from "../getNavigatedDirPath";
+// import getNavigatedDirPath from "../getNavigatedDirPath";
 
 interface functionResInterface {
-  ProjectName: string | undefined;
-  isNew: boolean | undefined;
+  ProjectName?: string;
+  PathName?: string;
+  isNew: boolean;
 }
 export default async (): Promise<functionResInterface> => {
   //   warm welcome output
-  stylishPrint("Welcome to web-app-init. 🚀", "blue");
+  stylishPrint(
+    `Welcome to web-app-init. 🚀
+  `,
+    "blue"
+  );
 
   //   Ask directory options
   const dirOptions = await prompt<DirectoryInterface>({
@@ -25,26 +29,12 @@ export default async (): Promise<functionResInterface> => {
     message: "What's your directory,",
     choices: directoryOptions,
   });
-  console.log("////////////////////////////");
-  console.log(dirOptions);
-  console.log("////////////////////////////");
-
   //   conditional operation of choosen directory
   switch (dirOptions.directoryName) {
     case CONTINUE_WITH_CURRENT_DIR: {
       const FileName = await ReadCurrentFileName();
       return {
-        ProjectName: FileName.directoryName,
-        isNew: false,
-      };
-    }
-    case NAVIGATE_DIR: {
-      console.log("DirectoryPath ");
-      const DirectoryPath = await getNavigatedDirPath();
-
-      console.log("DirectoryPath ", DirectoryPath);
-      return {
-        ProjectName: "none1",
+        PathName: FileName.directoryName,
         isNew: false,
       };
     }
@@ -64,8 +54,4 @@ export default async (): Promise<functionResInterface> => {
       throw new Error("Invalid dirOptions");
     }
   }
-  return {
-    isNew: false,
-    ProjectName: "default",
-  };
 };

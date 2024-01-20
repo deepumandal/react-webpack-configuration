@@ -1,0 +1,66 @@
+/* App.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-align: center;
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+}
+
+.title {
+  font-size: 1.875rem /* 30px */;
+  line-height: 2.25rem /* 36px */;
+}
+.main {
+  max-width: 42rem /* 672px */;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem /* 16px */;
+}
+.section-title {
+  font-size: 1.5rem /* 24px */;
+  line-height: 2rem /* 32px */;
+}
+
+.code-block {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  padding: 0.5rem /* 8px */;
+}
+
+.links-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.link {
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background-color: #555;
+}

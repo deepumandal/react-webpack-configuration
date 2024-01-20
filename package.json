@@ -10,15 +10,14 @@
     "clear": "^0.1.0",
     "enquirer": "^2.4.1",
     "fs-extra": "^11.2.0",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.9.2"
   },
   "name": "web-app-init",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is officially designed to install templates based on latest web technology!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Deepumandal/react-webpack-configuration.git"
@@ -39,6 +38,6 @@
   },
   "homepage": "https://github.com/Deepumandal/react-webpack-configuration#readme",
   "bin": {
-    "web-app-init": "index.js"
+    "web-app-init": "./index.js"
   }
 }

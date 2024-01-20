@@ -38,10 +38,33 @@ module.exports = {
         },
       },
       {
-        test: /\.(css|scss|sass|less)$/,
-        use: ["style-loader", "css-loader", "postcss-loader"],
+        test: /\.(css|scss)$/,
+        use: ["style-loader", "css-loader", "sass-loader", "postcss-loader"],
       },
-      ,
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "images",
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "fonts",
+            },
+          },
+        ],
+      },
     ],
   },
   devServer: {

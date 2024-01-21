@@ -19,8 +19,33 @@ Web App Init is a powerful and user-friendly CLI tool that allows you to quickly
 
 1. **Run the Installer**:
 
+   - Install `web-app-init` as a global dependency.
+     ```bash
+     npm i -g web-app-init
+     ```
+   - Run the following command:
+     ```bash
+     web-app-init
+     ```
+   - Alternatively, you can use `npx` directly:
+     ```bash
+     npx web-app-init
+     ```
+
+2. **Choose Necessary Options as Below.**
+
+   ![Image 1]('./img/s01.png')
+   ![Image 2]('./img/s02.png')
+   ![Image 3]('./img/s03.png')
+   ![Image 4]('./img/s04.png')
+   ![Image 5]('./img/s05.png')
+
+3. **Hooray, Ready to Use!**
+
    ```bash
-   npx web-app-init
+   cd folder-name
+   npm i
+   npm start
    ```
 
 ## Follow the Prompts:

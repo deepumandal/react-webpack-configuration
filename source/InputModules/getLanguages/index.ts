@@ -9,5 +9,6 @@ export default async (): Promise<string> => {
     message: "Choose a language:",
     choices: languagesOption,
   });
+
   return (await lang).PackageName;
 };

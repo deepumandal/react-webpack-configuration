@@ -22,21 +22,28 @@ const scriptsRunner = async function () {
         templateNameResponse,
         styleLibraryResponse,
     });
-    let name;
-    if (projectNameResponse.isNew)
-        name = projectNameResponse.ProjectName;
-    else
-        name = (0, path_1.basename)(process.cwd());
-    //   clear();
-    (0, stylePrint_1.default)(`
-    '${name}' is ready to go.
-  Next steps:
+    if (projectNameResponse.isNew) {
+        (0, stylePrint_1.default)(`
+      '${projectNameResponse.ProjectName}' is ready to go.
+    Next steps:
+    
+     📂 ${" "} cd ${projectNameResponse.ProjectName}
+     📂 ${" "} npm install
+     📂 ${" "} npm start
   
-   📂 ${" "} cd ${name}
-   📂 ${" "} npm install
-   📂 ${" "} npm start
-
-  Happy Hacking 🚀
-  `, "white");
+    Happy Hacking 🚀
+    `, "white");
+    }
+    else {
+        (0, stylePrint_1.default)(`
+      '${(0, path_1.basename)(process.cwd())}' is ready to go.
+    Next steps:
+    
+     📂 ${" "} npm install
+     📂 ${" "} npm start
+  
+    Happy Hacking 🚀
+    `, "white");
+    }
 };
 exports.default = scriptsRunner;

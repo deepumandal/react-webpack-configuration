@@ -34,9 +34,10 @@ Web App Init is a powerful and user-friendly CLI tool that allows you to quickly
 
 2. **Follow the Prompts:**
 
-   - Select your diretory to use.
-     ![Image 1](./img/s01.png)
-     ![Image 3](./img/s03.png)
+   - Select your directory to use.
+
+   - ![Image 1](./img/s01.png)
+   - ![Image 3](./img/s03.png)
 
    - Select your preferred template (TypeScript or JavaScript).
    - ![Image 4](./img/s04.png)

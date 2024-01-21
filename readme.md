@@ -36,14 +36,16 @@ Web App Init is a powerful and user-friendly CLI tool that allows you to quickly
 
    - Select your directory to use.
 
-   - ![Image 1](./img/s01.png)
-   - ![Image 3](./img/s03.png)
+   ![Image 1](./img/s01.png)
+   ![Image 3](./img/s03.png)
 
    - Select your preferred template (TypeScript or JavaScript).
-   - ![Image 4](./img/s04.png)
+
+   ![Image 4](./img/s04.png)
 
    - Choose your styling library (Tailwind CSS, MUI, Chakra UI, CSS, or SCSS).
-     ![Image 5](./img/s05.png)
+
+   ![Image 5](./img/s05.png)
 
 3. **Hooray, Ready to Use!**
 

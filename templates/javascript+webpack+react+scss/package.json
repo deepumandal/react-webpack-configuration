@@ -13,6 +13,7 @@
       "start:live": "webpack serve --open --mode development --live-reload --hot"
     },
     "devDependencies": {
+      "@babel/core": "7.23.7",
       "@babel/preset-env": "^7.15.8",
       "@babel/preset-react": "^7.14.5",
       "@types/react": "^17.0.2",

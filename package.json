@@ -14,10 +14,9 @@
     "ts-node": "^10.9.2"
   },
   "name": "web-app-init",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "This is officially designed to install templates based on latest web technology!",
   "main": "index.js",
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Deepumandal/react-webpack-configuration.git"
